@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "../components/header"
+import Header from "../components/header/index"
 import Global from "../styled/global"
 
 const MainPage: React.FC = () => {
@@ -7,7 +7,6 @@ const MainPage: React.FC = () => {
     <>
       <Global />
       <Header />
-      <p>Halloween</p>
     </>
   )
 }
