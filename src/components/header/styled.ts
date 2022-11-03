@@ -7,6 +7,8 @@ const Header_fixed_content = styled.header`
   top: 0;
   left: 0;
   height: 6rem;
+  background: var(--body_color);
+  z-index: 2;
 `
 
 const Header_halloween = styled(Container_main).attrs({as:"div"})`
@@ -27,7 +29,9 @@ const Logo_img = styled.img`
 `
 const Logo_name = styled.span`
   transition: 0.2s ease-in-out;
-  font-size: var(--second_size);
+  font-size: var(--first_size);
+  font-family: var(--lexend);
+  letter-spacing: 1px;
   :hover{
     color: var(--first_color);
   }

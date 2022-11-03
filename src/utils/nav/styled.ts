@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 const Nav_header = styled.nav`
-  font-size:var(--medium_size);
+  font-size:var(--first_size);
+  display: flex;
 `
 const List_nav = styled.ul`
   display: flex;
@@ -17,6 +18,7 @@ const Link_nav_header = styled.a`
   transition: 0.2s ease-in-out;
   color: var(--withe_color);
   padding: 1rem;
+  letter-spacing: 1px;
   :hover{
     color: var(--first_color);
   }
