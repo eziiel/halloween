@@ -70,7 +70,6 @@ const Text_first_home = styled.p`
   line-height: 1.5;
 `
 
-const Button_first_home = styled.button``
 
 const img_first_home = styled.img`
   width: 500px;
@@ -79,14 +78,14 @@ const img_first_home = styled.img`
 const img_second_first_home = styled.img`
   width: 300px;
   position: absolute;
-  left: -15px;
+  left: -10px;
   top: 25%;
 `;
 
 const img_thirdy_first_home = styled.img`
   width: 300px;
   position: absolute;
-  right: -15px;
+  right: 0;
   top: 15%;
 `;
 
@@ -101,7 +100,6 @@ export {
   img_title,
   SubTitle_first_home,
   Text_first_home,
-  Button_first_home,
   img_first_home,
   img_second_first_home,
   img_thirdy_first_home,
