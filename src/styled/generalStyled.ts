@@ -6,8 +6,4 @@ const Container_main = styled.div`
   margin: 0 auto;
 `
 
-const Container_general = styled.div`
-
-`
-
-export { Container_general, Container_main }
+export { Container_main }
