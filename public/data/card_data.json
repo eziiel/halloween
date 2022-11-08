@@ -1,0 +1,14 @@
+[
+  {
+    "img" : "/images/item-pumpkin.png",
+    "info_text_card" : "light"
+  },
+  {
+    "img" : "/images/category-ghost.png",
+    "info_text_card" : "Spooky"
+  },
+  {
+    "img" : "/images/item-witch-hat.png",
+    "info_text_card" : "The most"
+  }
+]
