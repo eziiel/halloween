@@ -6,8 +6,10 @@ const Home_second = styled(Container_main)`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-`
-const Title = styled.h1`
+  width: 100%;
+  gap:5rem;
+  `
+const Title = styled.h2`
   font-family: var(--crepster);
   font-size: 3rem;
   letter-spacing: 2px;
@@ -15,6 +17,13 @@ const Title = styled.h1`
   color: var(--first_color_alt);
   max-width: 25ch;
   text-align: center;
+  `
+const List = styled.ul`
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 `
 
-export { Home_second, Title }
+export { Home_second, Title, List }

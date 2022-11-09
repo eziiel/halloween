@@ -1,0 +1,17 @@
+[
+  {
+    "img" : "/images/item-pumpkin.png",
+    "subTitle" : "pumpkins",
+    "infoText" : "light up horror pumpkins to score at night"
+  },
+  {
+    "img" : "/images/category-ghost.png",
+    "subTitle" : "ghost",
+    "infoText" : "Spooky ghost to score in the moust hounted houses"
+  },
+  {
+    "img" : "/images/item-witch-hat.png",
+    "subTitle" : "witch hat",
+    "infoText" : "The most elegant witch hats can wear and scare"
+  }
+]
