@@ -9,16 +9,17 @@ export const HomeSecond = () => {
       <S.Title>
         chose your <br/> spooky category
       </S.Title>
-      <ul>
-      {Data_card.map(({ img, info_text_card}) =>(
+      <S.List>
+      {Data_card.map(({ img, subTitle, infoText }) =>(
          <li key={img}>
          <CardHome
            img= {img}
-           text= {info_text_card}
+           subTitle= {subTitle}
+           infoText= {infoText}
          />
        </li>
       ))}
-      </ul>
+      </S.List>
     </S.Home_second>
   )
 }
