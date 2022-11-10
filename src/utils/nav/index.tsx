@@ -5,9 +5,9 @@ const NavHeader: React.FC = () => {
   return (
     <N.Nav_header>
       <N.List_nav>
-        {Nav_data.map(({  list_item }) => (
-          <N.List_item_nav key={list_item} >
-            <N.Link_nav_header href={`#${list_item}`}>
+        {Nav_data.map(({ name_item, list_item }) => (
+          <N.List_item_nav key={ list_item} >
+            <N.Link_nav_header href={`#${name_item}`}>
               {list_item}
             </N.Link_nav_header>
           </N.List_item_nav>
