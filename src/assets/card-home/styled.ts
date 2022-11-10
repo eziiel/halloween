@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+interface Img_title_card {
+  img:string
+}
+
 const Card = styled.div`
   width: 250px;
   height: 250px;
@@ -32,11 +36,23 @@ const Info_card = styled.div`
   text-align: center;
 `;
 
-const Sub_title_card = styled.h3`
+const Sub_title_card = styled.h3<Img_title_card>`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--first_color);
   text-transform: capitalize;
   ::after{
-    
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    bottom: 45%;
+    content: "";
+    background: transparent url("/images/stars.png");
+    background-size: 40px;
+    transform: rotate(20deg);
+    width: 40px;
+    height: 40px;
   }
 `
 

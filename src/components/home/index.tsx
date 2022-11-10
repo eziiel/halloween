@@ -5,7 +5,7 @@ import * as S from "./styled"
 
 export const HomeMain = () => {
   return (
-    <S.Home_main>
+    <S.Home_main id="home">
       <HomeFirst />
       <HomeSecond />
     </S.Home_main>

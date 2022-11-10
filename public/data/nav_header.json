@@ -1,18 +1,18 @@
 [
   {
-    "name_item":"Home",
+    "name_item":"home",
     "list_item": "home"
   },
   {
-    "name_item":"About_us",
+    "name_item":"about_us",
     "list_item": "about us"
   },
   {
-    "name_item":"Items",
+    "name_item":"items",
     "list_item": "items"
   },
   {
-    "name_item":"Party",
+    "name_item":"party",
     "list_item": "party"
   }
 ]

@@ -15,7 +15,6 @@ const Home_first_section = styled(Container_main)`
     position: absolute;
     content: "";
     background: radial-gradient(circle, rgba(219,103,36,0.304359243697479) 0%, rgba(219,103,36,0.12788865546218486) 39%, rgba(17,15,14,0.2959558823529411) 68%);
-    color: red;
     width: 400px;
     height: 400px;
     z-index: -1;
@@ -26,7 +25,6 @@ const Home_first_section = styled(Container_main)`
     position: absolute;
     content: "";
     background: radial-gradient(circle, rgba(219,103,36,0.304359243697479) 0%, rgba(219,103,36,0.12788865546218486) 39%, rgba(17,15,14,0.2959558823529411) 68%);
-    color: red;
     width: 400px;
     height: 400px;
     z-index: -1;
