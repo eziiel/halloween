@@ -14,19 +14,19 @@ const Home_first_section = styled(Container_main)`
   :after{
     position: absolute;
     content: "";
-    background: radial-gradient(circle, rgba(219,103,36,0.304359243697479) 0%, rgba(219,103,36,0.12788865546218486) 39%, rgba(17,15,14,0.2959558823529411) 68%);
-    width: 400px;
-    height: 400px;
+    background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);
+    width: 600px;
+    height: 600px;
     z-index: -1;
-    left: -50px;
-    top: 10%;
+    left: -200px;
+    top: 9%;
   }
   :before{
     position: absolute;
     content: "";
-    background: radial-gradient(circle, rgba(219,103,36,0.304359243697479) 0%, rgba(219,103,36,0.12788865546218486) 39%, rgba(17,15,14,0.2959558823529411) 68%);
-    width: 400px;
-    height: 400px;
+    background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);
+    width: 600px;
+    height: 600px;
     z-index: -1;
     right: 0;
     top: 30%;
