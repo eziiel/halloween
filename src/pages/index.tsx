@@ -1,4 +1,5 @@
 import React from "react";
+import { CardItems } from "../assets/card-items";
 import { About } from "../components/about";
 import Header from "../components/header/index";
 import { HomeMain } from "../components/home";

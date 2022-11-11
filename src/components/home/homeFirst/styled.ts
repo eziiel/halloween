@@ -68,6 +68,7 @@ const Text_first_home = styled.p`
 
 const img_first_home = styled.img`
   width: 500px;
+  padding: 2rem 0;
 `;
 
 const img_second_first_home = styled.img`

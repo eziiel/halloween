@@ -1,0 +1,32 @@
+[
+  {
+    "status_liked":false,
+    "img" : "/images/item-apple.png",
+    "subTitle" : "apple",
+    "price": "$4.99"
+  },
+  {
+    "status_liked":false,
+    "img" : "/images/item-broom.png",
+    "subTitle" : "broom",
+    "price": "$12.99"
+  },
+  {
+    "status_liked":false,
+    "img" : "/images/item-pumpkins.png",
+    "subTitle" : "pumpkin",
+    "price": "$7.99"
+  },
+  {
+    "status_liked":false,
+    "img" : "/images/item-spider.png",
+    "subTitle" : "spider",
+    "price": "15.99"
+  },
+  {
+    "status_liked":false,
+    "img" : "/images/item-witch-hat.png",
+    "subTitle" : "witch hat",
+    "price": "9.99"
+  }
+]
