@@ -21,6 +21,9 @@ const ButtonDefault = styled.button<DataButton>`
   cursor: pointer;
   border: none;
   transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   :hover{
     background: var(${(props) => props.color});
     color: var(${(props) => props.backColor});
