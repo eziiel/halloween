@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Container_main } from "../../styled/generalStyled";
+import { Container_main } from "../../../styled/generalStyled";
 
 const ItemsSection = styled(Container_main).attrs({as: "section"})`
   width: 100%;
@@ -7,7 +7,6 @@ const ItemsSection = styled(Container_main).attrs({as: "section"})`
 `
 
 const ListItems = styled.ul`
-  background: blue;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;

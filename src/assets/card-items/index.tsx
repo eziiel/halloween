@@ -1,35 +1,41 @@
-import React from 'react'
-import * as S from "./styled"
-import { IoIosHeartEmpty } from "react-icons/io";
-import { IoIosHeart } from "react-icons/io";
-import { Button } from '../button';
+import { IoIosHeart, IoIosHeartEmpty } from "react-icons/io";
+import * as S from "./styled";
+import DataCardItems from "../../../public/data/card_items.json";
+import React from "react";
+
 
 interface Data_card_item {
-  subTitle:string
-  img:string
-  price:string
-  statusliked:boolean
+  subTitle: string;
+  img: string;
+  price: string;
+  statusLiked: boolean;
 }
 
+export const CardItems = ({
+  img,
+  subTitle,
+  price,
+  statusLiked,
+}: Data_card_item) => {
 
-export const CardItems = ({ img, subTitle, price, statusliked}:Data_card_item) => {
+  const [statusCardFan, setStatusCardFan] = React.useState(false)
+  const HandleItemFan = ():void => {
+    setStatusCardFan(!statusCardFan)
+  }
   return (
     <S.Card_item>
-      <S.Img_card_item src={img} alt={subTitle}/>
-      <S.Title_card_item>
-        {subTitle}
-      </S.Title_card_item>
-      <S.Price_card_item>
-        {price}
-      </S.Price_card_item>
-      <Button 
-          text={statusliked ? <IoIosHeart size="20px"/> : <IoIosHeartEmpty size="20px"/>}
-          backColor=""
-          width="70px"
-          height="30px"
-          size="--first_size"
-          color="--first_color"/>
-          
+      <S.Img_card_item src={img} alt={subTitle} />
+      <S.ContentOverButtonStatus>
+        <S.Title_card_item>{subTitle}</S.Title_card_item>
+        <S.Price_card_item>{price}</S.Price_card_item>
+        <S.Fan_card_item onClick={HandleItemFan}>
+          {statusCardFan ? (
+            <IoIosHeart size="20px" strokeWidth="25px" color="#fff"></IoIosHeart>
+          ) : (
+            <IoIosHeartEmpty size="20px" strokeWidth="25px" color="#fff" />
+          )}
+        </S.Fan_card_item>
+      </S.ContentOverButtonStatus>
     </S.Card_item>
-  )
-}
+  );
+};
