@@ -48,7 +48,7 @@ const Sub_title_card = styled.h3<Img_title_card>`
     right: 10%;
     bottom: 45%;
     content: "";
-    background: transparent url("/images/stars.png");
+    background: transparent url(${props => props.img});
     background-size: 40px;
     transform: rotate(20deg);
     width: 40px;

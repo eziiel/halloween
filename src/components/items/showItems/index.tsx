@@ -3,7 +3,7 @@ import { CardItems } from "../../../assets/card-items";
 import DataItems from "../../../../public/data/card_items.json";
 import * as S from "./styled";
 
-export const Items = () => {
+export const ShowItems = () => {
   return (
     <S.ItemsSection id="items">
       <S.ListItems>

@@ -15,4 +15,17 @@ const Title_size2 = styled.h2`
   text-align: center;
 `
 
-export { Container_main, Title_size2 }
+const Info_div = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+`
+const Text_info_p = styled.p`
+  font-family: var(--lexend);
+  max-width: 40ch;
+  text-align: center;
+  letter-spacing: 1px;
+`
+
+export { Container_main, Title_size2, Info_div, Text_info_p }

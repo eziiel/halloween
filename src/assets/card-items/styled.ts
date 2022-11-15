@@ -15,7 +15,6 @@ const Card_item = styled.li`
   justify-content: center;
   align-items: center;
   position: relative;
-  cursor: pointer;
   :hover {
     img {
       bottom: 75%;

@@ -24,8 +24,7 @@ const HomeFirst = () => {
         <Button 
           text="Explore now!!!" 
           backColor="--white_color"
-          width="160px"
-          height="50px"
+          padding="1rem 0.8rem"
           size="--first_size"
           color="--first_color"/>
         <S.img_first_home src={ImgFirst} alt="pumpkin image"/>
