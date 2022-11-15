@@ -3,8 +3,7 @@ interface DataButton {
   text: string | JSX.Element;
   backColor: string;
   color: string;
-  width: string;
-  height: string;
+  padding: string;
   size: string;
 }
 
@@ -12,16 +11,14 @@ export const Button = ({
   text,
   backColor,
   color,
-  width,
-  height,
+  padding,
   size,
 }: DataButton) => {
   return (
     <S.ButtonDefault
       backColor={backColor}
       color={color}
-      width={width}
-      height={height}
+      padding={padding}
       size={size}
     >
       {text}
