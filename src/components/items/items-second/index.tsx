@@ -6,7 +6,7 @@ import {
   Title_size2,
 } from "../../../styled/generalStyled";
 import * as S from "./styled";
-// import Stars from "../../../../public/images/stars.png"
+import Stars from "../../../../public/images/stars.png"
 
 export const ItemsSecond = () => {
   return (
@@ -27,6 +27,8 @@ export const ItemsSecond = () => {
           color="--first_color"
         />
       </Info_div>
+      <S.ImgStars src={Stars}/>
+       <S.ImgStarsSecond src={Stars}/>
       <S.ImagesItemsSecond src={CauldronImg} alt="party-cauldron" />
     </S.ItemsSecondSection>
   );
