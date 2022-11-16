@@ -51,7 +51,6 @@ const Contact_party = styled.div`
 const FooterParty = styled.div`
   grid-column: 1/-1;
   grid-row: 2;
-  background: green;
 `;
 
 export {
