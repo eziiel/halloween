@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Container_main } from "../../../styled/generalStyled";
 
 const Home_second = styled(Container_main)`
-  padding: 6rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;

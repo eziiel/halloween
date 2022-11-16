@@ -1,0 +1,14 @@
+[
+  {
+    "title" : "about us",
+    "items" : ["about us", "features", "news & blog"]
+  },
+  {
+    "title" : "services",
+    "items" : ["price", "discounts", "send a gift"]
+  },
+  {
+    "title" : "company",
+    "items" : ["blog", "celebrations", "about"]
+  }
+]

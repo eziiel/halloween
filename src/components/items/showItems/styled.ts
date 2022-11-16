@@ -3,7 +3,6 @@ import { Container_main } from "../../../styled/generalStyled";
 
 const ItemsSection = styled(Container_main).attrs({as: "section"})`
   width: 100%;
-  padding: 8rem 0;
   position: relative;
   :after{
     position: absolute;

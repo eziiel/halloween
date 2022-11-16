@@ -1,5 +1,6 @@
 import React from "react";
 import { About } from "../components/about";
+import { Party } from "../components/party";
 import Header from "../components/header/index";
 import { HomeMain } from "../components/home";
 import { Items } from "../components/items";
@@ -13,6 +14,7 @@ const MainPage: React.FC = () => {
       <Header />
       <About />
       <Items />
+      <Party />
     </>
   );
 };

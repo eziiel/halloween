@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import { Container_main, Title_size2 } from "../../../styled/generalStyled";
+import { Container_main } from "../../../styled/generalStyled";
 
 const ItemsSecondSection = styled(Container_main).attrs({as: "section"})`
   width: 100%;
-  padding: 8rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
