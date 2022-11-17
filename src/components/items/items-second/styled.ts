@@ -7,7 +7,7 @@ const ItemsSecondSection = styled(Container_main).attrs({as: "section"})`
   justify-content: space-between;
   align-items: center;
   position: relative;
-  :before{
+  :after{
     position: absolute;
     content: "";
     background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);

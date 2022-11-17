@@ -41,7 +41,6 @@ const Global = createGlobalStyle`
     color: var(--white_color);
     font-family: var(--crepster);
     color: var(--white_color);
-    /* height: 1500px; */
     overflow-x: hidden;
   }
   a{

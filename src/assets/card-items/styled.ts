@@ -39,7 +39,6 @@ const Img_card_item = styled.img`
   width: 130px;
   position: absolute;
   bottom: 65%;
-  z-index: 3;
   transition: 0.5s ease-in-out;
 `;
 
