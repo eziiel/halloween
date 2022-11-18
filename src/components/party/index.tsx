@@ -1,11 +1,12 @@
 import DataFooter from "../../../public/data/party_footer_items.json";
 import Logo from "../../../public/images/logo-skull.png";
 import { CardPartyItems } from "../../assets/card-party-footer";
-import { Items_party_footer, List_party_footer } from "../../assets/card-party-footer/styled";
 import * as S from "./styled";
 import { IoLogoInstagram } from "react-icons/io";
 import { IoLogoTwitter } from "react-icons/io";
 import { IoLogoFacebook } from "react-icons/io";
+import LeftImg from "../../../public/images/footer-tree2.png"
+import RightImg from "../../../public/images/footer-tree1.png"
 
 export const Party = () => {
   return (
@@ -51,6 +52,8 @@ export const Party = () => {
           ))}
         </S.Contact_party>
         <S.FooterParty>@Todos os direitos reservados</S.FooterParty>
+        <S.Left_img src={LeftImg}/>
+        <S.Right_img src={RightImg}/>
       </S.PartySection>
     </S.containerGlobalFooter>
   );

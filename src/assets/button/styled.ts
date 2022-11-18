@@ -13,7 +13,7 @@ const ButtonDefault = styled.button<DataButton>`
   padding: ${(props) => props.padding};
   font-size: var(${(props) => props.size});
   border-radius: 50px;
-  font-weight: 550;
+  font-weight: 700;
   letter-spacing: 1px;
   text-align: center;
   cursor: pointer;

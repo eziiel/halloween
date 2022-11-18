@@ -43,6 +43,7 @@ const Info_logo_text_footer = styled.p`
   font-family: var(--lexend);
   max-width: 20ch;
   font-size: 0.9rem;
+  line-height: 1.5;
 `;
 
 const Contact_party = styled.div`
@@ -73,8 +74,8 @@ const FooterParty = styled.div`
     position: absolute;
     content: "";
     background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);
-    width: 600px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     left: -50%;
     bottom: -70%;
   }
@@ -86,9 +87,24 @@ const FooterParty = styled.div`
     height: 600px;
     z-index: -1;
     right: -60%;
-    bottom: -35%;
+    bottom: -40%;
   }
 `;
+
+const Left_img = styled.img`
+  width: 250px;
+  position: absolute;
+  left: -30%;
+  bottom: -5%;
+`
+
+const Right_img = styled.img`
+  width: 250px;
+  position: absolute;
+  right: -43%;
+  bottom: 25%;
+`
+
 
 export {
   containerGlobalFooter,
@@ -103,4 +119,6 @@ export {
   SocialPartyItems,
   linkSocialParty,
   FooterParty,
+  Left_img,
+  Right_img
 };
