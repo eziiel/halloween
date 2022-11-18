@@ -99,10 +99,10 @@ const Left_img = styled.img`
 `
 
 const Right_img = styled.img`
-  width: 250px;
+  width: 300px;
   position: absolute;
   right: -43%;
-  bottom: 25%;
+  bottom: 20%;
 `
 
 

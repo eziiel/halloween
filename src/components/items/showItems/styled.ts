@@ -7,12 +7,12 @@ const ItemsSection = styled(Container_main).attrs({as: "section"})`
   :after{
     position: absolute;
     content: "";
-    background: radial-gradient(circle, rgba(219,103,36,0.1) 0%, rgba(219,103,36,0.1) 36%, rgba(17,15,14,0.2959558823529411) 61%);
+    background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);
     z-index: -1;
     width: 800px;
     height: 800px;
-    right: -30%;
-    top: -40%;
+    right: -60%;
+    top: -30%;
   }
 `
 
