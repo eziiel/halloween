@@ -5,6 +5,9 @@ const Container_main = styled.div`
   margin-inline: 1.5rem;
   margin: 0 auto;
   padding: 8rem 0;
+  @media(max-width:1200px) {
+    padding: 5rem 0;
+  }
 `;
 const Title_size2 = styled.h2`
   font-family: var(--crepster);
@@ -14,6 +17,9 @@ const Title_size2 = styled.h2`
   color: var(--first_color_alt);
   max-width: 25ch;
   text-align: center;
+  @media(max-width:1200px) {
+    font-size: 2rem;
+  }
 `;
 const Info_div = styled.div`
   display: flex;
@@ -26,6 +32,9 @@ const Text_info_p = styled.p`
   max-width: 40ch;
   text-align: center;
   letter-spacing: 1px;
+  @media (max-width: 1200px) {
+    font-size: 0.875rem;
+    }
 `;
 
 export {

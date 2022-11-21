@@ -20,6 +20,9 @@ const Card_item = styled.li`
       bottom: 75%;
     }
   }
+  @media (max-width: 1200px) {
+    width: 200px;
+  }
 `
 ;
 
@@ -40,17 +43,26 @@ const Img_card_item = styled.img`
   position: absolute;
   bottom: 65%;
   transition: 0.5s ease-in-out;
+  @media (max-width: 1200px) {
+    width: 100px;
+  }
 `;
 
 const Title_card_item = styled.h3`
   margin-top: 60%;
   text-transform: capitalize;
+  @media (max-width: 1200px) {
+    font-size: 1rem;
+  }
 `;
 
 const Price_card_item = styled.span`
   color: var(--first_color);
   font-weight: 600;
   letter-spacing: 2px;
+  @media (max-width: 1200px) {
+    font-size: 0.875rem;
+  }
 `;
 
 const Fan_card_item = styled.button`
