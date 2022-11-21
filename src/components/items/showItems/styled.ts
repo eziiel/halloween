@@ -13,6 +13,12 @@ const ItemsSection = styled(Container_main).attrs({as: "section"})`
     height: 800px;
     right: -60%;
     top: -30%;
+    @media(max-width:1200px) {
+      right: -20%;
+      top: -30%;
+      width: 450px;
+      height: 450px;
+    }
   }
 `
 

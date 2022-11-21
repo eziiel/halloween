@@ -19,6 +19,12 @@ const Home_second = styled(Container_main)`
     z-index: -1;
     left: -60%;
     top: -30%;
+    @media(max-width:1200px) {
+      left: -20%;
+      top: -10%;
+      width: 450px;
+      height: 450px;
+    }
   }
   :after{
     position: absolute;
@@ -30,6 +36,12 @@ const Home_second = styled(Container_main)`
     z-index: -1;
     right: -60%;
     bottom: -70%;
+    @media(max-width:1200px) {
+      right: -20%;
+      bottom: -30%;
+      width: 450px;
+      height: 450px;
+    }
   }
 `
 

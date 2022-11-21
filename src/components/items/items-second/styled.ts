@@ -4,7 +4,7 @@ import { Container_main } from "../../../styled/generalStyled";
 const ItemsSecondSection = styled(Container_main).attrs({as: "section"})`
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: relative;
   :after{
@@ -17,10 +17,19 @@ const ItemsSecondSection = styled(Container_main).attrs({as: "section"})`
     z-index: -1;
     left: -40%;
     top: -30%;
+    @media(max-width:1200px) {
+      left: -20%;
+      top: -20%;
+      width: 450px;
+      height: 450px;
+    }
   }
 `
 const ImagesItemsSecond = styled.img`
   width: 500px;
+  @media(max-width:1200px) {
+    width: 300px;
+  }
 `
 const ImgStars = styled.img`
   width: 90px;
@@ -28,6 +37,10 @@ const ImgStars = styled.img`
   right: 50%;
   top: 20%;
   transform: rotate(-30deg);
+  @media(max-width:1200px) {
+    width: 45px;
+    right: 43%;
+  }
 `
 const ImgStarsSecond = styled.img`
   width: 90px;
@@ -35,6 +48,10 @@ const ImgStarsSecond = styled.img`
   bottom: 20%;
   transform: rotate(30deg);
   position: absolute;
+  @media(max-width:1200px) {
+    width: 45px;
+    right: 5%;
+  }
 `
 
 
