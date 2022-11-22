@@ -11,6 +11,7 @@ const Home_second = styled(Container_main)`
   position: relative;
   :before{
     position: absolute;
+    transition: 0.5s ease-in-out;
     content: "";
     background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);
     color: red;
@@ -25,11 +26,16 @@ const Home_second = styled(Container_main)`
       width: 450px;
       height: 450px;
     }
+    @media(max-width:800px) {
+      width: 300px;
+      height: 300px;
+    }
   }
   :after{
     position: absolute;
     content: "";
     background: radial-gradient(circle, rgba(219,103,36,0.2763480392156863) 0%, rgba(219,103,36,0.12788865546218486) 36%, rgba(17,15,14,0.2959558823529411) 61%);
+    transition: 0.5s ease-in-out;
     color: red;
     width: 800px;
     height: 800px;
@@ -41,6 +47,10 @@ const Home_second = styled(Container_main)`
       bottom: -30%;
       width: 450px;
       height: 450px;
+    }
+    @media(max-width:800px) {
+      width: 300px;
+      height: 300px;
     }
   }
 `

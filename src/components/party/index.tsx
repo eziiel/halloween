@@ -11,7 +11,6 @@ import RightImg from "../../../public/images/footer-tree1.png"
 export const Party = () => {
   return (
     <S.containerGlobalFooter>
-
       <S.PartySection id="party">
         <S.InfoParty>
           <S.Info_logo_footer>

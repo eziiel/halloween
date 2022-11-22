@@ -28,6 +28,9 @@ const ButtonDefault = styled.button<DataButton>`
     color: var(${(props) => props.backColor});
     box-shadow: 0 0 200px 0.2px var(${(props) => props.color});
   }
+  @media(max-width:800px) {
+    font-size: 0.875rem;
+  }
 `;
 
 export { ButtonDefault };
