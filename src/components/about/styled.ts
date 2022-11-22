@@ -9,6 +9,7 @@ const About_section = styled(Container_main).attrs({as : "section"})`
 `
 const Img_about_section = styled.img`
   width: 650px;
+  transition: 0.5s ease-in-out;
   @media (max-width: 1200px) {
     width: 400px;
     }

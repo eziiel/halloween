@@ -1,14 +1,16 @@
 import styled from "styled-components";
 import { Container_main } from "../../../styled/generalStyled";
 
-const Home_first_section = styled(Container_main)`
+const Home_first_section = styled.div`
   display: flex;
   gap: 2rem;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   font-family: var(--lexend);
+  transition: 0.5s ease-in-out;
   :after {
+    transition: 0.5s ease-in-out;
     position: absolute;
     content: "";
     background: radial-gradient(
@@ -19,15 +21,24 @@ const Home_first_section = styled(Container_main)`
     );
     width: 600px;
     height: 600px;
-    z-index: -1;
+    z-index: -2;
     left: -10%;
     top: 9%;
+    @media(max-width:1450px) {
+      width: 500px;
+      height: 500px;
+    }
     @media(max-width:1200px) {
       width: 400px;
       height: 400px;
     }
+    @media(max-width:800px) {
+      width: 300px;
+      height: 300px;
+    }
   }
   :before {
+    transition: 0.5s ease-in-out;
     position: absolute;
     content: "";
     background: radial-gradient(
@@ -41,9 +52,17 @@ const Home_first_section = styled(Container_main)`
     z-index: -1;
     right: -10%;
     top: 30%;
+    @media(max-width:1450px) {
+      width: 500px;
+      height: 500px;
+    }
     @media(max-width:1200px) {
       width: 400px;
       height: 400px;
+    }
+    @media(max-width:800px) {
+      width: 300px;
+      height: 300px;
     }
   }
 `;
@@ -70,6 +89,7 @@ const Title = styled.h1`
   letter-spacing: 2px;
   font-weight: 500;
   color: var(--first_color_alt);
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     font-size: 3em;
   }
@@ -77,8 +97,12 @@ const Title = styled.h1`
 const SubTitle_first_home = styled.h2`
   font-size: 3rem;
   letter-spacing: 1px;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     font-size: 2rem;
+  }
+  @media(max-width:800px) {
+    font-size: 1.5rem;
   }
 `;
 
@@ -87,14 +111,19 @@ const Text_first_home = styled.p`
   text-align: center;
   letter-spacing: 0.5px;
   line-height: 1.5;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     font-size: 0.875rem;
+  }
+  @media(max-width:800px) {
+    font-size: 0.8rem;
   }
 `;
 
 const img_first_home = styled.img`
   width: 500px;
   padding: 2rem 0;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     width: 300px;
   }
@@ -105,6 +134,7 @@ const img_second_first_home = styled.img`
   position: absolute;
   left: -15px;
   top: 25%;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     width: 200px;
   }
@@ -115,6 +145,7 @@ const img_thirdy_first_home = styled.img`
   position: absolute;
   right: -15px;
   top: 15%;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     width: 200px;
   }

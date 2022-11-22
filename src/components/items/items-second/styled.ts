@@ -17,6 +17,7 @@ const ItemsSecondSection = styled(Container_main).attrs({as: "section"})`
     z-index: -1;
     left: -40%;
     top: -30%;
+    transition: 0.5s ease-in-out;
     @media(max-width:1200px) {
       left: -20%;
       top: -20%;
@@ -27,6 +28,7 @@ const ItemsSecondSection = styled(Container_main).attrs({as: "section"})`
 `
 const ImagesItemsSecond = styled.img`
   width: 500px;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     width: 300px;
   }
@@ -37,6 +39,7 @@ const ImgStars = styled.img`
   right: 50%;
   top: 20%;
   transform: rotate(-30deg);
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     width: 45px;
     right: 43%;
@@ -48,6 +51,7 @@ const ImgStarsSecond = styled.img`
   bottom: 20%;
   transform: rotate(30deg);
   position: absolute;
+  transition: 0.5s ease-in-out;
   @media(max-width:1200px) {
     width: 45px;
     right: 5%;
