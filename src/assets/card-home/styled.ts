@@ -22,6 +22,14 @@ const Card = styled.div`
   @media (max-width: 1200px) {
     width: 200px;
   }
+  @media (max-width: 800px) {
+    width: 180px;
+    :hover {
+      img {
+        bottom: 90%;
+      }
+    }
+  }
 `;
 const Img_card = styled.img`
   width: 130px;
@@ -30,6 +38,10 @@ const Img_card = styled.img`
   transition: 0.5s;
   @media (max-width: 1200px) {
     width: 100px;
+  }
+  @media (max-width: 800px) {
+    width: 80px;
+    bottom: 80%;
   }
 `;
 

@@ -23,8 +23,10 @@ const List_party_footer = styled.ul<Direction>`
 
 const Items_party_footer = styled.li`
   padding: 0.5rem 0;
+  margin: 0.2rem 0;
   font-size: 0.875rem;
   color: #92989B;
+  cursor: pointer;
 `;
 
 export {

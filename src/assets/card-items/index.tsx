@@ -15,7 +15,6 @@ export const CardItems = ({
   img,
   subTitle,
   price,
-  statusLiked,
 }: Data_card_item) => {
 
   const [statusCardFan, setStatusCardFan] = React.useState(false)
@@ -28,13 +27,13 @@ export const CardItems = ({
       <S.ContentOverButtonStatus>
         <S.Title_card_item>{subTitle}</S.Title_card_item>
         <S.Price_card_item>{price}</S.Price_card_item>
-        <S.Fan_card_item onClick={HandleItemFan}>
+        <S.Fan_card_item_button onClick={HandleItemFan}>
           {statusCardFan ? (
             <IoIosHeart size="20px" strokeWidth="25px" color="#fff"></IoIosHeart>
           ) : (
             <IoIosHeartEmpty size="20px" strokeWidth="25px" color="#fff" />
           )}
-        </S.Fan_card_item>
+        </S.Fan_card_item_button>
       </S.ContentOverButtonStatus>
     </S.Card_item>
   );

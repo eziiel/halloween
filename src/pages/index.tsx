@@ -5,6 +5,7 @@ import Header from "../components/header/index";
 import { HomeMain } from "../components/home";
 import { Items } from "../components/items";
 import Global from "../styled/global";
+import { Footer } from "../components/footer";
 
 const MainPage: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const MainPage: React.FC = () => {
       <About />
       <Items />
       <Party />
+      <Footer />
     </>
   );
 };
