@@ -34,7 +34,12 @@ const Text_info_p = styled.p`
   letter-spacing: 1px;
   @media (max-width: 1200px) {
     font-size: 0.875rem;
-    }
+  }
+  @media (max-width: 800px) {
+    font-size: 0.750rem;
+    letter-spacing: 1.125px;
+    line-height: 1.125;
+  }
 `;
 
 export {

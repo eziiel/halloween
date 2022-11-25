@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-interface ImgFan {
-  img: JSX.Element
-  
-}
 const Card_item = styled.li`
   background: var(--container_color);
   font-family: var(--lexend);
@@ -16,6 +12,9 @@ const Card_item = styled.li`
   align-items: center;
   position: relative;
   :hover {
+    button{
+      box-shadow: 0 0 100px 3px var(--first_color);
+    }
     img {
       bottom: 75%;
     }
@@ -46,6 +45,9 @@ const Img_card_item = styled.img`
   @media (max-width: 1200px) {
     width: 100px;
   }
+  @media (max-width: 800px) {
+    width: 80px;
+  }
 `;
 
 const Title_card_item = styled.h3`
@@ -65,7 +67,8 @@ const Price_card_item = styled.span`
   }
 `;
 
-const Fan_card_item = styled.button`
+const Fan_card_item_button = styled.button`
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,9 +79,6 @@ const Fan_card_item = styled.button`
   background: var(--first_color);
   background-position: center;
   background-size: 60px;
-  :hover{
-    box-shadow: 0 0 200px 3px var(--first_color);
-  }
 `;
 
 export {
@@ -87,5 +87,5 @@ export {
   Img_card_item,
   Title_card_item,
   Price_card_item,
-  Fan_card_item,
+  Fan_card_item_button,
 };
