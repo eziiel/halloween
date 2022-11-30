@@ -75,6 +75,7 @@ const Fan_card_item_button = styled.button`
   width: 70px;
   height: 35px;
   border-radius: 20px;
+  border: none;
   cursor: pointer;
   background: var(--first_color);
   background-position: center;

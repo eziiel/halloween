@@ -1,12 +1,9 @@
+import { IoLogoFacebook, IoLogoInstagram, IoLogoTwitter } from "react-icons/io";
 import DataFooter from "../../../public/data/party_footer_items.json";
+import RightImg from "../../../public/images/footer-tree1.png";
 import Logo from "../../../public/images/logo-skull.png";
 import { CardPartyItems } from "../../assets/card-party-footer";
 import * as S from "./styled";
-import { IoLogoInstagram } from "react-icons/io";
-import { IoLogoTwitter } from "react-icons/io";
-import { IoLogoFacebook } from "react-icons/io";
-import RightImg from "../../../public/images/footer-tree1.png"
-
 
 export const Party = () => {
   return (
@@ -24,18 +21,18 @@ export const Party = () => {
           </S.Info_logo_text_footer>
           <S.SocialPartyList>
             <S.SocialPartyItems>
-              <S.linkSocialParty href="www.facebook.com" target="_blank">
-                <IoLogoFacebook size="30px" color="#db6724"/>
+              <S.linkSocialParty href="https://facebook.com" target="_blank">
+                <IoLogoFacebook size="30px" color="#db6724" />
               </S.linkSocialParty>
             </S.SocialPartyItems>
             <S.SocialPartyItems>
-              <S.linkSocialParty href="www.twitter.com" target="_blank">
-                <IoLogoTwitter size="30px" color="#db6724"/>
+              <S.linkSocialParty href="https://twitter.com" target="_blank">
+                <IoLogoTwitter size="30px" color="#db6724" />
               </S.linkSocialParty>
             </S.SocialPartyItems>
             <S.SocialPartyItems>
-              <S.linkSocialParty href="www.instagram.com" target="_blank">
-                <IoLogoInstagram size="30px" color="#db6724"/>
+              <S.linkSocialParty href="https://instagram.com" target="_blank">
+                <IoLogoInstagram size="30px" color="#db6724" />
               </S.linkSocialParty>
             </S.SocialPartyItems>
           </S.SocialPartyList>
@@ -50,7 +47,7 @@ export const Party = () => {
             />
           ))}
         </S.Contact_party>
-        <S.Right_img src={RightImg}/>
+        <S.Right_img src={RightImg} />
       </S.PartySection>
     </S.containerGlobalFooter>
   );

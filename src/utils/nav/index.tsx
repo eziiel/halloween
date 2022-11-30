@@ -1,9 +1,14 @@
 import * as N from "./styled"
 import Nav_data from "../../../public/data/nav_header.json"
+import NavBatImag from "../../../public/images/nav-bat.png" 
 
-const NavHeader: React.FC = () => {
+interface Status {
+  status:boolean
+}
+function NavHeader ({status}: Status) {
   return (
-    <N.Nav_header>
+    <N.Nav_header status={status}>
+      <N.NavBat src={NavBatImag} alt="nav bat"/>
       <N.List_nav>
         {Nav_data.map(({ name_item, list_item }) => (
           <N.List_item_nav key={ list_item} >
