@@ -13,12 +13,18 @@ const Card_party_footer = styled.div`
 
 const Title_party_footer = styled.h3`
   font-size: var(--medium_size);
+  @media (max-width: 500px) {
+    font-size:var(--first_size);
+  }
 `;
 
 const List_party_footer = styled.ul<Direction>`
   display: flex;
   flex-direction: ${props => props.direction};
   align-items: start;
+  @media (max-width: 500px) {
+    font-size:0.750rem;
+  }
 `;
 
 const Items_party_footer = styled.li`

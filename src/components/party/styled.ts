@@ -100,7 +100,7 @@ const Contact_party = styled.div`
   align-self: stretch;
   margin-left: 3rem;
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   justify-content: space-around;
   @media (max-width: 800px) {
     margin-left: initial;

@@ -9,7 +9,6 @@ const Home_first_section = styled.div`
   align-items: center;
   font-family: var(--lexend);
   transition: 0.5s ease-in-out;
-  position: relative;
   :after {
     transition: 0.5s ease-in-out;
     position: absolute;
@@ -146,7 +145,7 @@ const img_first_home = styled.img`
 const img_second_first_home = styled.img`
   width: 300px;
   position: absolute;
-  left: -15px;
+  left: -3%;
   top: 25%;
   transition: 0.5s ease-in-out;
   z-index: -2;
@@ -157,14 +156,14 @@ const img_second_first_home = styled.img`
     width: 150px;
   }
   @media(max-width:800px) {
-    width: 120px;
+    width: 80px;
   }
 `;
 
 const img_thirdy_first_home = styled.img`
   width: 300px;
   position: absolute;
-  right: -5px;
+  right: -3%;
   bottom: 45%;
   transition: 0.5s ease-in-out;
   z-index: -2;
@@ -179,8 +178,8 @@ const img_thirdy_first_home = styled.img`
     top: 10%;
   }
   @media(max-width:400px) {
-    width: 100px;
-    right: 0%;
+    width: 80px;
+    top: 20%;
   }
 `;
 

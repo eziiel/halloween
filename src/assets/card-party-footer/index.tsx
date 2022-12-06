@@ -5,7 +5,7 @@ interface ItemsList {
   items: string[];
   direction: string;
 }
-export const CardPartyItems = ({ title, items, direction }: ItemsList) => {
+export function CardPartyItems ({ title, items, direction }: ItemsList) {
 
   return (
     <S.Card_party_footer>
