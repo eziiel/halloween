@@ -18,7 +18,6 @@ const Nav_header = styled.nav<Status>`
     width: 100%;
     top: 90%;
     left: 0;
-    /* right: 40%; */
     padding: 2rem 0;
     backdrop-filter: blur(30px);
 }

@@ -36,6 +36,10 @@ const Home_first_section = styled.div`
       width: 300px;
       height: 300px;
     }
+    @media(max-width:400px) {
+      width: 200px;
+      height: 200px;
+    }
   }
   :before {
     transition: 0.5s ease-in-out;
@@ -63,6 +67,12 @@ const Home_first_section = styled.div`
     @media(max-width:800px) {
       width: 300px;
       height: 300px;
+    }
+    @media(max-width:400px) {
+      width: 150px;
+      height: 150px;
+      top: 40%;
+      right: 5%;
     }
   }
 `;
@@ -153,7 +163,7 @@ const img_second_first_home = styled.img`
 const img_thirdy_first_home = styled.img`
   width: 300px;
   position: absolute;
-  right: -15px;
+  right: -5px;
   top: 15%;
   transition: 0.5s ease-in-out;
   z-index: -2;
@@ -166,6 +176,10 @@ const img_thirdy_first_home = styled.img`
   @media(max-width:800px) {
     width: 120px;
     top: 10%;
+  }
+  @media(max-width:400px) {
+    width: 100px;
+    right: 0%;
   }
 `;
 

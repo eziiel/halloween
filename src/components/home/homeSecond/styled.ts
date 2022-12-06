@@ -30,6 +30,12 @@ const Home_second = styled(Container_main)`
       width: 300px;
       height: 300px;
     }
+    @media (max-width: 400px) {
+      top: 5%;
+      width: 300px;
+      height: 300px;
+      right: 5%;
+    }
   }
   :after{
     position: absolute;
@@ -52,15 +58,26 @@ const Home_second = styled(Container_main)`
       width: 300px;
       height: 300px;
     }
+    @media (max-width: 400px) {
+      bottom: -10%;
+      width: 250px;
+      height: 250px;
+      right: 5%;
+    }
   }
 `
 
 const List = styled.ul`
   width: 100%;
   display: flex;
+  gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
 `
 
 export { Home_second, List }
