@@ -44,7 +44,7 @@ npm run dev
 
 You can view the project through the links below:
 
-- [Live Preview](#)
+- [https://halloween-silk.vercel.app](#)
 <br>
 <br>
 
