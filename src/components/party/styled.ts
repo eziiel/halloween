@@ -33,6 +33,7 @@ const containerGlobalFooter = styled.section`
       bottom: -40%;
     }
     @media (max-width: 680px) {
+      right: 0%;
       width: 250px;
       height: 250px;
     }
@@ -128,7 +129,7 @@ const Right_img = styled.img`
   transition: 0.5s ease-in-out;
   width: 300px;
   position: absolute;
-  right: -1%;
+  right: 0;
   bottom: 0%;
   z-index: -1;
   @media (max-width: 1200px) {
