@@ -9,6 +9,7 @@ const Home_first_section = styled.div`
   align-items: center;
   font-family: var(--lexend);
   transition: 0.5s ease-in-out;
+  position: relative;
   :after {
     transition: 0.5s ease-in-out;
     position: absolute;
@@ -164,7 +165,7 @@ const img_thirdy_first_home = styled.img`
   width: 300px;
   position: absolute;
   right: -5px;
-  top: 15%;
+  bottom: 45%;
   transition: 0.5s ease-in-out;
   z-index: -2;
   @media(max-width:1200px) {
