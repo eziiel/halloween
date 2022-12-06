@@ -42,6 +42,10 @@ const FooterParty = styled(Container_main)`
       width: 350px;
       height: 350px;
     }
+    @media (max-width: 680px) {
+      width: 250px;
+      height: 250px;
+    }
   }
 `;
 

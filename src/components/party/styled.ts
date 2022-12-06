@@ -4,7 +4,7 @@ import { Container_main } from "../../styled/generalStyled";
 const containerGlobalFooter = styled.section`
   width: 100%;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   :before {
     transition: 0.5s ease-in-out;
     position: absolute;
@@ -31,6 +31,10 @@ const containerGlobalFooter = styled.section`
     @media (max-width: 680px) {
       right: -30%;
       bottom: -40%;
+    }
+    @media (max-width: 680px) {
+      width: 250px;
+      height: 250px;
     }
   }
 `;
